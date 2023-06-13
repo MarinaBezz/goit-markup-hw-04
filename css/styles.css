@@ -135,11 +135,23 @@ ul {
   background-color: var(--title-main-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 1140px;
 }
 
 .main-container {
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
+  /* background-image: url(../images/office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1140px; */
 }
 .main-header-title {
   font-weight: 700;
@@ -178,7 +190,7 @@ ul {
   background-color: var(--accent-color-button);
 }
 
-/*---------------------SOLUTIONS---------------------*/
+/*---------------------SECTION 1 SOLUTIONS---------------------*/
 
 .solutions {
   padding: 120px 0;
