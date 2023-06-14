@@ -686,6 +686,7 @@ overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   position: absolute;
+  fill: #2E2F42;
   top: 24px;
   right: 24px;
   cursor: pointer;
